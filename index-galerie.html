@@ -7,6 +7,12 @@
       <link rel="stylesheet" href="styles/main.css">
 <link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300|Poiret+One" rel="stylesheet">
 
+<link rel="stylesheet" href="styles/colorbox.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+   <script src="scripts/jquery.colorbox-min.js"></script>
+
+
   </head>
   <body>
 <header>
@@ -64,6 +70,11 @@
 
   <section id="portfolio">
             <h1>Mon Portfolio</h1>
+
+            <a class='gallery' href='images/david.jpg'>David Dowie</a>
+                <a class='gallery' href='images/meduse.jpg'>Méduse</a>
+                <a class='gallery' href='images/cake.png'>Cake</a>
+
             <div class="portfolio">
                 <div class="portfolio-content">
                   <img src="styles/images/David.jpg" alt="This is a protfolio item">
@@ -118,6 +129,12 @@
             </div>
 
           </footer>
+
+          <script>
+      jQuery(document).ready(function () {
+        jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1' });
+      });
+    </script>
 
 
   </body>
