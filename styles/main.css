@@ -1,22 +1,18 @@
 .char1{
   font-size: 4em;
   color: #FFFFFF;
-
 }
 
 .char2{
   font-family: 'Millimetre', sans-serif;
   font-size: 2em;
   color: #FFFFFF;
-
-
 }
 
 .char3{
   font-family: 'Sporting Grotesque', sans-serif;
   font-size: 3em;
-  color:  #FFFFFF;
-
+  color: #FFFFFF;
 }
 
 .char4{
@@ -40,7 +36,7 @@
 
 .char7{
   font-size: 2em;
-  color:  #FFFFFF;
+  color: #FFFFFF;
 
 }
 
@@ -54,7 +50,7 @@
 .char9{
     font-family: 'Bluu Next', sans-serif;
   font-size: 3em;
-  color: #FFFFFF;
+  color:#FFFFFF;
 
 }
 
@@ -68,7 +64,7 @@
 .char11{
     font-family: 'Bluu Next', sans-serif;
   font-size: 2.5em;
-  color:  #FFFFFF;
+  color: #FFFFFF;
 
 }
 
@@ -86,7 +82,7 @@
 }
 .char14{
   font-size: 3em;
-  color:  #FFFFFF;
+  color:#FFFFFF;
 
 }
 .char15{
@@ -96,17 +92,16 @@
 
 }
 
-
 body {
 font-family: 'Sporting Grotesque', sans-serif;
 }
 
 header {
 font-family: 'Savate', sans-serif;
-color: #FFFFFF;
+color:#FFFFFF;
 background-image: url('images/moi1.jpg');
 background-attachment: fixed;
-min-height: 70vh;
+min-height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -125,7 +120,7 @@ font-family: 'Sporting Grotesque', sans-serif;
 /*
 .header-content-block {
 padding: 1em;
-background-color: rgba(255, 227, 255, 0.3);
+background-color: rgba(255, 255, 255, 0.5);
 }
 */
 
@@ -134,7 +129,6 @@ background-color: rgba(255, 227, 255, 0.3);
     font-size: 2.5em;
     color: #FFFFFF ;
   }
-
 
 
 section h1{
@@ -246,7 +240,7 @@ padding-top: 4em;
 
 .portfolio-content {
   padding-bottom: 2em;
-  max-width: 200px;
+  max-width: 400px;
   margin : 12px;
 }
 
@@ -284,8 +278,6 @@ margin-top: 0px;
 img {
   opacity: 1.0;
   filter: alpha(opacity=100);
-
-
 }
 
 img:hover {
